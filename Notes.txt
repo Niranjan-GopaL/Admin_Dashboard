@@ -1,0 +1,12 @@
+Remember:
+1)  In order to understand the different tech used, go to the start of the video 
+    where he explains about the project, it's functionalities and why it is better
+    than mui, chakra, etc. 
+
+2)  Learn from docs and tutorials of syncfusion
+
+
+Before you get into building again, progress till now:
+1)  tailwind connected.
+2)  all dependencies installed and everything works.
+3)  create files and folder structure next 
