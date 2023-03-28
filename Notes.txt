@@ -4,9 +4,23 @@ Remember:
     than mui, chakra, etc. 
 
 2)  Learn from docs and tutorials of syncfusion
+3)  LEARN TAILWIND WHEN YOU GO OVER IT AGAIN: 
+    ->  Tailwind CSS Intellisense vs extension , so now on hovering over tailwind CSS class
+        you can see it's css version
+    ->  Have tailwind doc open and PASTE the className and LEARN ONLY THOSE 
+        THAT YOU USED HERE
+
+4) creating all the components' files (populating components with ALL THE 
+    COMPONENTS' boilerplate {just doing rafce}) and exporting it all from a common index.js 
+    This will make it SOO MUCH MORE EASIER in the future
+
+5)
+
+Progress
+
+Added Data folder which has all the img, dummy data, etc
+
 
 
 Before you get into building again, progress till now:
-1)  tailwind connected.
-2)  all dependencies installed and everything works.
-3)  create files and folder structure next 
+in components , index.jsx was given but I made it index.js will it push error?
