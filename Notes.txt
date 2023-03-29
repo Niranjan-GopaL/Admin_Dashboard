@@ -14,7 +14,7 @@ Remember:
     COMPONENTS' boilerplate {just doing rafce}) and exporting it all from a common index.js 
     This will make it SOO MUCH MORE EASIER in the future
 
-5)
+5)Then you create the components you need one by one 
 
 Progress
 
@@ -23,4 +23,7 @@ Added Data folder which has all the img, dummy data, etc
 
 
 Before you get into building again, progress till now:
-in components , index.jsx was given but I made it index.js will it push error?
+1)  in components , index.jsx was given but I made it index.js will it push error?
+2)  the cross-icon to close sidebar is not styled completely, it vanishes if you style fully
+    pain pecko , sigh
+

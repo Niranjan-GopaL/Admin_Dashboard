@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Employees = () => {
+const Pie = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Employees = () => {
   )
 }
 
-export default Employees
+export default Pie

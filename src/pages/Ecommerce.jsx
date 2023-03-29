@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Pyramis = () => {
+const Ecommerce = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Pyramis = () => {
   )
 }
 
-export default Pyramis
+export default Ecommerce

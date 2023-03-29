@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Lines = () => {
+const Cart = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Lines = () => {
   )
 }
 
-export default Lines
+export default Cart
