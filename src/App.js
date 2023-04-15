@@ -6,11 +6,13 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
 import './App.css';
+import { useStateContext } from './context/ContextProvider';
 
 // import { useStateContext } from './contexts/ContextProvider';
 
 const App = () => {
-  const activeMenu = true;
+  // THIS IS A HOOK
+  const {activeMenu} = useStateContext();
 
   return (
     <div >
@@ -29,7 +31,7 @@ const App = () => {
             </TooltipComponent>
           </div>
 
-          {/* Trying to make sidebar appear and disappear on CLick */}
+          {/* Trying to make sidebar appear and disappear on CLick based on the STATE OF ACTIVEMENU*/}
           {activeMenu ? (
             <div className='w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white'>
               <Sidebar/>

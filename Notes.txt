@@ -1,3 +1,12 @@
+Scope For improvment --------------------------------------------------------------------------
+1)  The User Profile is just a static image. His name too.
+    You can furthur this project by attaching a backend for users' data.
+    And User's space in Navabr to be according to the user that is using the website ,which we'll get from back end
+
+2)  Login/SignUp and Authentication , Forgot password , Reset Password Integration
+
+
+
 Remember:
 1)  In order to understand the different tech used, go to the start of the video 
     where he explains about the project, it's functionalities and why it is better
@@ -10,20 +19,64 @@ Remember:
     ->  Have tailwind doc open and PASTE the className and LEARN ONLY THOSE 
         THAT YOU USED HERE
 
-4) creating all the components' files (populating components with ALL THE 
+4)  creating all the components' files (populating components with ALL THE 
     COMPONENTS' boilerplate {just doing rafce}) and exporting it all from a common index.js 
     This will make it SOO MUCH MORE EASIER in the future
 
-5)Then you create the components you need one by one 
+5)  Then you create the components you need one by one 
 
-Progress
+6)  ContextProvider , States , Hooks are very important. Learn that and improve this project TO ANOTHER LEAGUE
+
+7)  ALL ICONS ARE FROM react-icons. So now you know react-icons , material icons . etc
+
+PROGRESS LOGS ------------------------------------------------------------------------------------------------------------------------------>
 
 Added Data folder which has all the img, dummy data, etc
-
+Sidebar and ContextProvider over 
+But GO OVER IT AGAIN
 
 
 Before you get into building again, progress till now:
 1)  in components , index.jsx was given but I made it index.js will it push error?
 2)  the cross-icon to close sidebar is not styled completely, it vanishes if you style fully
     pain pecko , sigh
+3)  The Navbar is being designed. 
 
+
+---
+
+5)  Setting up Routes for entire thing
+
+6)  First we dedigned the Sidebar
+
+7)  -ContextProvider.js where we dictate all the states for the entire application.
+    -Wrapping app in index.js with ContectProvider
+ReactDOM.render(
+    <ContextProvider>
+        <App />
+    </ContextProvider>
+,document.getElementById('root'));
+
+    -Using it AS A HOOK in App.jsx and wherever we need to know state.
+    Eg :- In Sidebar :-
+On clicking the Link it'll call setActiveMenu function and pass it false
+<Link to="/" onClick={() =>() } className="...">------------ 
+changing this to                                           |
+                                                        |
+                                                        '
+<Link to="/" onClick={() => setActiveMenu(false)} className=".."
+     In some cases we want to do something based on previous state , (above we are passing false) 
+     There we'll use :-
+<button type="button" onClick={() => setActiveMenu(!activeMenu) }  className=".." > 
+    Actuall code setActiveMenu calls a callback function :-
+    <button type="button" onClick={() => setActiveMenu( (prevActiveMenu)  => !prevActiveMenu)}
+
+    - FYI :useState snippets appear in Intellisense
+
+
+8)  Designing Navbar
+
+    - In order to make the Sidebar 'appear' , you'll need to press a button on Navbar. 
+    - The small down arrow is also from React icons. DAMNNN. Remember what all we can get from react-icons
+
+9)  Designing First page on the sidebar :- ECOMMERCE
