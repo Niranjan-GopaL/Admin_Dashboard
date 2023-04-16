@@ -5,7 +5,7 @@ Scope For improvment -----------------------------------------------------------
 
 2)  Login/SignUp and Authentication , Forgot password , Reset Password Integration
 
-
+3)  Make the revenue section wayy better , you can change the idea itself
 
 Remember:
 1)  In order to understand the different tech used, go to the start of the video 
@@ -29,6 +29,8 @@ Remember:
 
 7)  ALL ICONS ARE FROM react-icons. So now you know react-icons , material icons . etc
 
+
+
 PROGRESS LOGS ------------------------------------------------------------------------------------------------------------------------------>
 
 Added Data folder which has all the img, dummy data, etc
@@ -40,7 +42,8 @@ Before you get into building again, progress till now:
 1)  in components , index.jsx was given but I made it index.js will it push error?
 2)  the cross-icon to close sidebar is not styled completely, it vanishes if you style fully
     pain pecko , sigh
-3)  The Navbar is being designed. 
+3)  Both the Ecommerce page (Revenue section in Vid, they finished making the 4 cards , now onto charts now)
+    and Data tables are being designed
 
 
 ---
@@ -80,3 +83,19 @@ changing this to                                           |
     - The small down arrow is also from React icons. DAMNNN. Remember what all we can get from react-icons
 
 9)  Designing First page on the sidebar :- ECOMMERCE
+
+Interesting part :- 
+    Designed Button component. (does syncfusion not have a button ? ans- Not suited to our needs)
+    This would design a button based on the parameters passed
+
+
+        IN THIS PROJECT WE HAVE MANY DIFFERENT COLOR THEME. UNDERSTAND HOW TO IMPLEMENT THAT .
+
+        This is might be how:- 
+        This button's style is given dynamically. the `item.iconColor`
+            <button
+                type="button"
+                style={{ color: item.iconColor, backgroundColor: item.iconBg }}
+                className="text-2xl opacity-0.9 rounded-full  p-4 hover:drop-shadow-xl"
+              >
+

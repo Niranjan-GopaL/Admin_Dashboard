@@ -18,6 +18,7 @@ const App = () => {
     <div >
       <BrowserRouter >
 
+
         <div className='flex relative dark:bg-main-dark-bg'>
             
           {/* zIndex is make 1000 so  that it appears over all other elements */}
@@ -37,6 +38,7 @@ const App = () => {
               <Sidebar/>
             </div>
           ):(
+            // The width is zero here
             <div className='w-0 dark:bg-secondary-dark-bg'>
               <Sidebar />
             </div>
@@ -88,6 +90,8 @@ const App = () => {
             </div>
             <Footer />
         </div>
+
+
       </div>
     </BrowserRouter>
     </div>
