@@ -7,6 +7,7 @@ Scope For improvment -----------------------------------------------------------
 
 3)  Make the revenue section wayy better , you can change the idea itself
 
+<--------------------------------------------------------------------------------------------------------------->
 Remember:
 1)  In order to understand the different tech used, go to the start of the video 
     where he explains about the project, it's functionalities and why it is better
@@ -43,7 +44,19 @@ Before you get into building again, progress till now:
 2)  the cross-icon to close sidebar is not styled completely, it vanishes if you style fully
     pain pecko , sigh
 3)  Both the Ecommerce page (Revenue section in Vid, they finished making the 4 cards , now onto charts now)
-    and Data tables are being designed
+    and Orderes PAGE (1ST PAGE) are being designed
+
+
+THREE PAGES :-
+A) Orders
+B) Employees
+C) Customers
+
+FOUR APPS :-
+A) Calendar
+B) Kanban
+C) Editor
+D) Color-Picker
 
 
 ---
